@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carlito', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1281b9;
+}
+
+.wrapper {
+    width: 23rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+}
+
+.wrapper header {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper form {
+    margin: 2.5rem 0 1.3rem 0;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.32rem;
+}
+
+form p {
+    font-size: 1.2rem;
+    margin-bottom: 0.32rem;
+}
+
+form input {
+    height: 3.2rem;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    border: 0.07rem solid #999;
+}
+
+form input:focus {
+    border: 0.13rem solid #f22929;
+}
+
+form .drop-list {
+    display: flex;
+    margin-top: 1.3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop-list .select-box {
+    display: flex;
+    height: 2.8rem;
+    width: 7.2rem;
+    border-radius: 0.32rem;
+    align-items: center;
+    justify-content: center;
+    border: 0.07rem solid #999;
+}
+
+.select-box select {
+    width: auto;
+    font-size: 1rem;
+    margin: 0 -0.32rem 0 0.32rem;
+}
+
+.select-box select::-webkit-scrollbar{
+   width: 0.5rem;
+}
+
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 0.5rem;
+    border-right: 0.13rem solid #fff;
+}
+
+.select-box img {
+   max-width: 1.6rem; 
+}
+
+.drop-list .icon {
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+}
+
+form .exchange-rate {
+    font-size: 1.1rem;
+    margin: 1.3rem 0 1.9rem;
+}
+form button {
+    height: 3.2rem;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: #168939;
+}

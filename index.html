@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Money Converter</title>
 </head>
 <body>
@@ -21,29 +23,25 @@
                     <p>From</p>
                     <div class="select-box">
                         <img src="https://flagsapi.com/PT/flat/64.png" alt="flag">
-                        <select>
-                           <option value="EUR">EUR</option> 
-                           <option value="USD">USD</option> 
-                           <option value="BRL">BRL</option> 
-                           <option value="GBP">GBP</option> 
-                        </select>
+                        <select></select>
                     </div>
                 </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
                 <div class="To">
                     <p>To</p>
                     <div class="select-box">
-                        <img src="https://flagsapi.com/PT/flat/64.png" alt="flag">
-                        <select>
-                           <option value="EUR">EUR</option> 
-                           <option value="USD">USD</option> 
-                           <option value="BRL">BRL</option> 
-                           <option value="GBP">GBP</option> 
-                        </select>
+                        <img src="https://flagsapi.com/BR/flat/64.png" alt="flag">
+                        <select></select>
                     </div>
                 </div>
             </div>
+            <div class="exchange-rate">1 EUR = 5,56 BRL</div>
+            <button>Get Exchange Rate</button>
         </form>
     </div>
-    
-</body>
+
+    <script src="/assets/js/country-list.js"></script>
+    <script src="/assets/js/script.js"></script>
+
+  </body>    
 </html>
