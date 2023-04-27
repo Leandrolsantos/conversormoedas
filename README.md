@@ -1,29 +1,29 @@
 # Money Converter - Conversor de Câmbio
 
-![](./)
+![](./assets/img/conversorfundo.png)
 
-![](./)
+![](./assets/img/conversorg.gif)
 
-Deploy: (EM BREVE)
+Deploy: 
 
 ## Sobre
 
-(EM BREVE).
+É uma ferramenta para converter a valores de moedas internacionais usando uma api que é atualizada em tempo real. Busquei deixar em inglês para que outras pessoas que não entendam português possam utilizar.
 
 ### Objetivo
 
-(EM BREVE)
+Praticar o Javascript e aumentar meu conhecimento no uso do JS e de API´s.
 
 ### Desafio
 
-(EM BREVE)
+Compreender como funciona a lógica do algoritmo. Ainda é um desafio para mim, mas a cada desafio que encontro fico cada vez mais motivado para buscar aprender.
 
 ### Conclusão
 
-(EM BREVE)
+Gostei bastante do resultado deste projeto. É mais uma ferramenta que busquei adicionar ao meu portifólio para que seja útil para as pessoas no dia a dia.
 
 ### Ferramentas Utilizadas
 
+- Javascript
 - HTML
 - CSS
-- Javascript

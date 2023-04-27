@@ -17,6 +17,8 @@ body {
     text-align: center;
     margin: 0 auto;
     font-weight: bold;
+    color: rgb(247, 187, 6);
+    text-shadow: 2px 2px 3px black;
 }
 
 .wrapper {
@@ -27,6 +29,7 @@ body {
     background-image: url(/assets/img/fundcontainer.jpg);
     background-size: cover;
     background-position: center;
+    box-shadow: 2px 2px 3px black;
 }
 
 .wrapper header {
@@ -54,11 +57,11 @@ span {
     bottom: 0;
     left: -0.25em;
     right: -0.25em;
-    background-color: hsla(0, 1%, 19%, 0.737);
+    background-color: hsla(0, 0%, 100%, 0.501);
     transform-origin: center right;
     transform: scaleX(0);
     transition: transform 0.5s ease-in-out;
-    border-radius: 20px;
+    border-radius: 16px;
   }
   
   span:hover::before {
@@ -82,7 +85,7 @@ form :where(input, select, button) {
 }
 
 form p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 1.3rem;
 }
 
@@ -111,9 +114,7 @@ form .drop-list {
     border-radius: 0.32rem;
     align-items: center;
     justify-content: center;
-    border: 0.2rem solid #e40a0a;
     border-radius: 1rem;
-    background-color: rgba(255, 179, 0, 0.237);
 }
 
 .select-box select {
@@ -137,7 +138,7 @@ form .drop-list {
 }
 
 .select-box img {
-   max-width: 1.6rem; 
+   max-width: 1.7rem; 
 }
 
 .drop-list .icon {
