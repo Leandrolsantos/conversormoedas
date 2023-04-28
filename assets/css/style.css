@@ -17,7 +17,7 @@ body {
     text-align: center;
     margin: 0 auto;
     font-weight: bold;
-    color: rgb(247, 187, 6);
+    color: rgb(255, 192, 2);
     text-shadow: 2px 2px 3px black;
 }
 
@@ -93,7 +93,7 @@ form input {
     height: 3.2rem;
     font-size: 1.1rem;
     padding: 0 1rem;
-    border: 0.07rem solid #999;
+    border: 0.08rem solid #999;
 }
 
 form input:focus {
@@ -154,7 +154,7 @@ form .exchange-rate {
 }
 
 .exchange-rate {
-    color: #00ff3c;
+    color: #05f63d;
     font-weight: bold;
     text-shadow: 1px 1.5px 0.5px rgb(0, 0, 0);
     border-radius: 10px;
